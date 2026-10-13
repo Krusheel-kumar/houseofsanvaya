@@ -5,6 +5,7 @@ import { PlayCircle, ShieldCheck, Star, RefreshCcw, CreditCard, ChevronRight, Ch
 import Link from "next/link";
 import React, { useState } from "react";
 import SignatureCarousel from "@/components/ui/SignatureCarousel";
+import BridalCollectionSection from "@/components/ui/BridalCollectionSection";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -243,6 +244,9 @@ export default function Home() {
 
       {/* 3D Curved Perspective Showcase: Woven to Be Remembered */}
       <SignatureCarousel />
+
+      {/* The Bridal Collection Scalloped Motion Gallery */}
+      <BridalCollectionSection />
 
       {/* New Arrivals */}
       <section className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
